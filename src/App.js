@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
+import Nav from "./components/Nav";
 
 function App() {
   return (
@@ -8,10 +9,10 @@ function App() {
       <BrowserRouter>
         <div className="App"></div>
         <Nav />
-        <Switch>
+        {/* <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/register" component={Form} />
-        </Switch>
+        </Switch> */}
       </BrowserRouter>
     </>
   );
