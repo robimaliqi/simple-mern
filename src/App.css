@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background-color: royalblue;
+}
+
 .container {
   margin-top: 80px;
   background-color: #fff;
@@ -9,4 +13,9 @@
   margin: 80px auto 0;
   padding: 0;
   min-height: 500px;
+}
+
+.title {
+  background-color: lightgray;
+  padding: 20px 40px;
 }
